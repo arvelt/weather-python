@@ -1,0 +1,529 @@
+{
+    "head": {
+        "vars": [
+            "area_code",
+            "label_ja"
+        ]
+    },
+    "results": {
+        "bindings": [
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "01000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "北海道",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "02000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "青森県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "03000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "岩手県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "04000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "宮城県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "05000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "秋田県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "06000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "山形県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "07000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "福島県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "08000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "茨城県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "09000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "栃木県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "10000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "群馬県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "11000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "埼玉県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "12000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "千葉県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "13000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "東京都",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "14000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "神奈川県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "15000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "新潟県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "16000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "富山県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "17000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "石川県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "18000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "福井県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "19000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "山梨県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "20000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "長野県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "21000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "岐阜県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "22000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "静岡県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "23000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "愛知県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "24000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "三重県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "25000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "滋賀県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "26000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "京都府",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "27000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "大阪府",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "28000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "兵庫県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "29000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "奈良県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "30000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "和歌山県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "31000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "鳥取県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "32000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "島根県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "33000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "岡山県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "34000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "広島県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "35000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "山口県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "36000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "徳島県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "37000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "香川県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "38000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "愛媛県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "39000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "高知県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "40000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "福岡県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "41000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "佐賀県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "42000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "長崎県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "43000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "熊本県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "44000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "大分県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "45000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "宮崎県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "46000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "鹿児島県",
+                    "xml:lang": "ja"
+                }
+            },
+            {
+                "area_code": {
+                    "type": "literal",
+                    "value": "47000"
+                },
+                "label_ja": {
+                    "type": "literal",
+                    "value": "沖縄県",
+                    "xml:lang": "ja"
+                }
+            }
+        ]
+    }
+}
