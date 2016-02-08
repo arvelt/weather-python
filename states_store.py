@@ -8,8 +8,9 @@ class StateStore():
 
     def __init__(self, debug = False):
         self.debug = debug
+        self.states = self.load_states()
 
-    def get(self):
+    def load_states(self):
         """
             Get Japan States and Citys.
             returns [
@@ -56,3 +57,14 @@ class StateStore():
                 if self.debug:
                     print "都市：", city.get('label'), city.get('id')
         return states
+
+    def get_city_id_by_name(self, name):
+        for state in self.states:
+            for city in state.get('citys'):
+                if city.get('label') == name:
+                    return city.get('id')
+
+    def get_citys_by_state(self, name):
+        for state in self.states:
+            if state['state'].get('label') == name:
+                return ','.join([ city.get('label') for city in state['citys']])
