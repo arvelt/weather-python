@@ -24,9 +24,11 @@ class StateStore():
                 }]
             ]
         """
+        # FIXME キャッシュする
         r = requests.get('http://weather.livedoor.com/forecast/rss/primary_area.xml')
         area = xml.fromstring(r.content)
 
+        # FIXME キャッシュする
         states_file = open('./state_code.json', mode='r')
         states = json.load(states_file)
         dict_states = {}
