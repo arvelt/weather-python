@@ -1,0 +1,7 @@
+click==6.2
+py==1.4.30
+pytest==2.8.2
+pytest-timeout==0.5
+pytz==2015.7
+requests==2.9.1
+wheel==0.26.0
