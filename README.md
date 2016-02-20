@@ -55,7 +55,7 @@ Options:
 
 ### TODO
 - Rename state to prefectures.
-- Add subcomand to show prefectures list.
+- Add subcommand to show prefectures list.
 - Use pip to install.
 - Adjusting directory.
 - Code refactoring.
