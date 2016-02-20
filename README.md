@@ -31,7 +31,7 @@ python weather.py
 Weather-python has subcommands.
 
 __cities__  
-Find available cities from states name.
+Find available cities from states name. You input state like this "\*\*県"  
 ```
 Usage: weather.py cities [OPTIONS]
 
@@ -55,6 +55,7 @@ Options:
 
 ### TODO
 - Rename state to prefectures.
+- Add subcomand to show prefectures list.
 - Use pip to install.
 - Adjusting directory.
 - Code refactoring.
