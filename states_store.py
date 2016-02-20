@@ -12,13 +12,13 @@ class StateStore():
 
     def load_states(self):
         """
-            Get Japan States and Citys.
+            Get Japan States and cities.
             returns [
                 state: {
                     id,
                     label,
                 },
-                citys: [{
+                cities: [{
                     id,
                     label,
                 }]
@@ -42,10 +42,10 @@ class StateStore():
                     'id' : dict_states.get(data.get('title')),
                     'label': data.get('title'),
                 },
-                'citys': [],
+                'cities': [],
             }
             for city in data.findall("city"):
-                state['citys'].append({
+                state['cities'].append({
                     'id': city.get('id'),
                     'label': city.get('title'),
                 })
@@ -55,18 +55,18 @@ class StateStore():
         for state in states:
             if self.debug:
                 print "都道府県：", state['state'].get('label'), state['state'].get('id')
-            for city in state['citys']:
+            for city in state['cities']:
                 if self.debug:
                     print "都市：", city.get('label'), city.get('id')
         return states
 
     def get_city_id_by_name(self, name):
         for state in self.states:
-            for city in state.get('citys'):
+            for city in state.get('cities'):
                 if city.get('label') == name:
                     return city.get('id')
 
-    def get_citys_by_state(self, name):
+    def get_cities_by_state(self, name):
         for state in self.states:
             if state['state'].get('label') == name:
-                return ','.join([ city.get('label') for city in state['citys']])
+                return ','.join([ city.get('label') for city in state['cities']])
