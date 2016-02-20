@@ -2,7 +2,7 @@ Weather-python
 ---
 ### Basic usage:
 
-Weather-python is Japanese forecast cli tool.　Weather information is using the "livedoor 天気情報".
+Weather-python is Japanese forecast script tool.　Weather information is using the "livedoor 天気情報".
 
 1. Find the available city. You select state from
 47 prefectures.
@@ -16,6 +16,11 @@ $ python weather.py cities -s '東京都'
 $ python weather.py forecasts -tt -c '東京'
 2016-02-21 forecasts:晴時々曇 max celsius:16 min celsius:9
 ```
+
+### Install
+required python 2.7.5 over.  
+`git clone git@github.com:arvelt/weather-python.git`
+
 
 ### Usage detail:
 
@@ -43,3 +48,10 @@ Options:
   -c, --city TEXT        The city name to see the weather.
   --help                 Show this message and exit.
 ```
+
+### TODO
+- Rename state to prefectures.
+- Use pip to install.
+- More like CLI.
+- Add test.
+- Deploy CI.
