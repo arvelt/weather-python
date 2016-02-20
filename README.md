@@ -52,6 +52,8 @@ Options:
 ### TODO
 - Rename state to prefectures.
 - Use pip to install.
+- Adjusting directory.
+- Code refactoring.
 - More like CLI.
 - Add test.
 - Deploy CI.
