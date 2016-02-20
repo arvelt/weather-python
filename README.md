@@ -18,8 +18,12 @@ $ python weather.py forecasts -tt -c '東京'
 ```
 
 ### Install
-required python 2.7.5 over.  
-`git clone git@github.com:arvelt/weather-python.git`
+Required python 2.7.5 over, maybe.
+```
+$ git clone git@github.com:arvelt/weather-python.git
+cd weather-python
+python weather.py
+```
 
 
 ### Usage detail:
